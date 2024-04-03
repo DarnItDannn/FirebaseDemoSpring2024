@@ -39,9 +39,11 @@ public class DemoApp extends Application {
         fstore = contxtFirebase.firebase();
         fauth = FirebaseAuth.getInstance();
 
-        scene = new Scene(loadFXML("primary"), 640, 480);
+        scene = new Scene(loadFXML("secondary"), 640, 480);
         stage.setScene(scene);
         stage.show();
+
+        // Testing Git Commit
 
 //        FileInputStream serviceAccount =
 //                new FileInputStream("src/main/resources/aydin/firebasedemospring2024/key.jason");
