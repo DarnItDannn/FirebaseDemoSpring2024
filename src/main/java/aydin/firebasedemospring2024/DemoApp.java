@@ -43,7 +43,7 @@ public class DemoApp extends Application {
         stage.setScene(scene);
         stage.show();
 
-        // Testing Git Commit
+        // Commented out as this is already done in the FirestoreContext method.
 
 //        FileInputStream serviceAccount =
 //                new FileInputStream("src/main/resources/aydin/firebasedemospring2024/key.jason");
