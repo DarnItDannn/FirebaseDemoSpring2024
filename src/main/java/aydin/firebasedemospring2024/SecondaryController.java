@@ -75,7 +75,6 @@ public class SecondaryController {
         String pass = signInPassTxt.getText();
 
 
-
         System.out.println(username);
         System.out.println(pass);
     }
